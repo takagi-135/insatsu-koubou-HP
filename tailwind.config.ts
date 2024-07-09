@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#eeeeee",
+        secondary: "#5a3e19",
+        danger: "#F39800",
+      },
+      fontFamily: {
+        sans: ["Noto Sans JP", "sans-serif"],
+        serif: ["Shippori Mincho", "serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
