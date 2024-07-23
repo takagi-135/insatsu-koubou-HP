@@ -1,5 +1,5 @@
 import TopPic from "@/components/main/top-image";
-import TopText from "@/components/main/top-image/catch.tsx";
+import TopText from "./top-image/catch";
 
 export default function Main() {
   return (
