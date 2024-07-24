@@ -5,7 +5,7 @@ export default function TopText() {
         <div className="h-44">
           <i>　</i>
         </div>
-        <div className="text-secondary font-serif font-medium text-4xl pt-44 px-5 drop-shadow-3xl ">
+        <div className="text-secondary font-serif font-medium text-4xl pt-44 pb-5 px-5 drop-shadow-3xl ">
           <div className="flex justify-end flex-wrap">
             <p className="tracking-wide p-3">お客さまとの</p>
             <p className="tracking-tight p-3">“つながり”を大切に、</p>
@@ -15,9 +15,6 @@ export default function TopText() {
             <p className="tracking-tighter p-3">“想い”を「カタチ」にする</p>
           </div>
         </div>
-      </div>
-      <div className="w-full h-40 bg-primary p-4">
-        <i>　</i>
       </div>
     </>
   );
