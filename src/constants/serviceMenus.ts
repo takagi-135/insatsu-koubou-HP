@@ -20,4 +20,4 @@ export const SERVICE_MENUS = [
     img: "/webCreate.jpg",
     alt: "Iot時代の新しいニーズにお応えいたします",
   },
-];
+] as const;
