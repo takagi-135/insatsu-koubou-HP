@@ -1,5 +1,5 @@
 import { SERVICE_MENUS } from '@/constants/serviceMenus';
-import ServiceIntroduction from '@/components/nav/serviceIntroduction';
+import ServiceIntroduction from '@/components/nav/serviceIntroduction/index';
 import Image from 'next/image';
 
 export default function CircleLists() {
