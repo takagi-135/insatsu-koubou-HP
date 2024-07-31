@@ -1,0 +1,15 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": ["typescript", "node", "npm", "html", "css"],
+  "words": [
+    "insatsukoubou",
+    "INSATSU",
+    "KOUBOU",
+    "tailwindcss",
+    "Noto",
+    "Shippori",
+    "Mincho"
+  ],
+  "ignorePaths": ["node_modules/**", "cspell.json"]
+}
