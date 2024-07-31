@@ -1,27 +1,27 @@
-import { SERVICE_MENUS } from "@/constants/serviceMenus";
-import ServiceIntroduction from "@/components/nav/serviceIntroduction";
-import Image from "next/image";
+import { SERVICE_MENUS } from '@/constants/serviceMenus';
+import ServiceIntroduction from '@/components/nav/serviceIntroduction';
+import Image from 'next/image';
 
 export default function CircleLists() {
   return (
     <>
       <div className="-z-49 bg-white">
-        <div className="flex flex-wrap shrink-0 items-center">
+        <div className="flex shrink-0 flex-wrap items-center">
           <div className="ml-auto"></div>
           {SERVICE_MENUS.map((serviceMenu) => {
             return (
               <div
-                className="relative w-[240px] h-[240px] ml-[-30px]"
+                className="relative ml-[-30px] h-[240px] w-[240px]"
                 key={serviceMenu.id}
               >
                 <Image
-                  className="absolute rounded-full border-white border-4 shadow-xl hover:opacity-70"
+                  className="absolute rounded-full border-4 border-white shadow-xl hover:opacity-70"
                   src={serviceMenu.img}
                   width={240}
                   height={240}
                   alt={serviceMenu.alt}
                 />
-                <p className="absolute text-center text-white text-3xl top-2/4 left-2/4 translate-x-[-50%] translate-y-[-50%] drop-shadow-2xl">
+                <p className="absolute left-2/4 top-2/4 translate-x-[-50%] translate-y-[-50%] text-center text-3xl text-white drop-shadow-2xl">
                   {serviceMenu.title}
                 </p>
               </div>

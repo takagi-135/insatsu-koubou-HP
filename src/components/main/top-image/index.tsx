@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function TopPic() {
   return (
     <>
-      <div className="fixed w-fit shrink-0 -z-50">
+      <div className="fixed -z-50 w-fit shrink-0">
         <Image
           src="/high-quality-printing.jpg"
           alt="高品質な印刷を提供。職人がお届けする、美しい製品。"
