@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Header() {
   return (
     <header>
-      <div className="m-0 w-full bg-secondary p-4">
+      <div className="fixed m-0 w-full bg-secondary p-4">
         <div className="flex items-center">
           <Image
             className="hover:opacity-70"
@@ -12,12 +12,12 @@ export default function Header() {
             width={220}
             height={90}
           />
-          <ol className="list-none flex space-x-3 justify-end items-center pr-4 ml-auto text-white">
-            <li className="hover:opacity-50 hover:text-danger">会社案内</li>
-            <li className="hover:opacity-50 hover:text-danger">
+          <ol className="ml-auto flex list-none items-center justify-end space-x-3 pr-4 text-white">
+            <li className="hover:text-danger hover:opacity-50">会社案内</li>
+            <li className="hover:text-danger hover:opacity-50">
               製品・サービス
             </li>
-            <li className="hover:opacity-50 hover:text-danger">アクセス</li>
+            <li className="hover:text-danger hover:opacity-50">アクセス</li>
           </ol>
         </div>
       </div>

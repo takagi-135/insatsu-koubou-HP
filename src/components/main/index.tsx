@@ -1,5 +1,5 @@
-import TopPic from "@/components/main/top-image";
-import TopText from "./top-image/catch";
+import TopPic from '@/components/main/top-image';
+import TopText from './catchText';
 
 export default function Main() {
   return (
