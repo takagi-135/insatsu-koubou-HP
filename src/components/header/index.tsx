@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Header() {
   return (
     <header>
-      <div className="fixed m-0 w-full bg-secondary p-4">
+      <div className="fixed z-50 m-0 w-full bg-secondary p-4">
         <div className="flex items-center">
           <Image
             className="hover:opacity-70"
