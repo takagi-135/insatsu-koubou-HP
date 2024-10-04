@@ -12,7 +12,7 @@ export default function Header() {
             width={220}
             height={90}
           />
-          <ol className="ml-auto flex list-none items-center justify-end space-x-3 pr-4 text-white">
+          <ol className="ml-auto flex list-none items-center justify-end space-x-2 pr-1 text-xs text-white md:space-x-4 md:pr-4 md:text-base">
             <li className="hover:text-danger hover:opacity-50">会社案内</li>
             <li className="hover:text-danger hover:opacity-50">
               製品・サービス
