@@ -1,7 +1,8 @@
 const BASE_PATHS = {
   top: '/',
   presidentMessage: '/president-message',
-};
+  companyHistory: '/company-history',
+} as const;
 
 export const PAGES = {
   top: {
@@ -10,4 +11,7 @@ export const PAGES = {
   presidentMessage: {
     root: BASE_PATHS.presidentMessage,
   },
-};
+  companyHistory: {
+    root: BASE_PATHS.companyHistory,
+  },
+} as const;
