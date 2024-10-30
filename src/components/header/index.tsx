@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { PAGES } from '../../constants/pages';
 
 export default function Header() {
   return (
     <header>
       <div className="fixed z-50 m-0 w-full bg-secondary p-4">
         <div className="flex items-center">
-        <Link href="/"> 
+        <Link href={PAGES.top.root} passHref>
             <Image
               className="hover:opacity-70"
               src="/insatsukoubou-w.svg"
