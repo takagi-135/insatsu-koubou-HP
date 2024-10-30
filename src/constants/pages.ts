@@ -4,7 +4,6 @@ const BASE_PATHS = {
   companyHistory: '/company-history',
 } as const;
 
-export { BASE_PATHS };
 
 export const PAGES = {
   top: {
